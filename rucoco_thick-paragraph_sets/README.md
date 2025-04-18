@@ -1,8 +1,8 @@
 # 6+ сущностей на абзац & есть местоимение
 
 ## Файлы
-6epp&has_anaphoric.json
-4epp&has_anaphoric.json
+* 6epp&has_anaphoric.json (6+ сущностей на абзац & есть местоимение)
+* 4epp&has_anaphoric.json (4+ сущности на абзац & есть местоимение)
 
 ## Структура файла
 
