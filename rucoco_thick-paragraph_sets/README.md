@@ -34,6 +34,7 @@
 *Коммент для Маши: в тетрадке делается в ячейке с комментом "претаск для выбора референта внутри абзаца"*
 
 * [short_thick_paragraphs_pretask full.json](pretask/short_thick_paragraphs_pretask%20full.json) — длина текста = 0.5 х средней длины текста; элемент содержит: параграф, местоимение, "голд" и потенциальные неправильные варианты ответа (совпадающие по грам. признакам)
+* [short_thick_paragraphs_pretask_2+variant_full.json](pretask/long_thick_paragraphs_pretask_2+variant_full.json) — то же что и, но сохранены только случаи где есть хотя бы 2 ложных варианта
 * [long_thick_paragraphs_pretask.json](pretask/long_thick_paragraphs_pretask.json), [long_thick_paragraphs_pretask 1.json](pretask/long_thick_paragraphs_pretask%201.json) — длина текста = 1.5 х средней длины текста; элемент содержит: параграф, местоимение, "голд" и потенциальные неправильные варианты ответа (совпадающие по грам. признакам)
 * [long_thick_paragraphs_pretask_2+variant_full.json](pretask/long_thick_paragraphs_pretask_2+variant_full.json) — то же что и, но сохранены только случаи где есть хотя бы 2 ложных варианта
 * [long_thick_paragraphs_pretask_2+variant_part.json](pretask/long_thick_paragraphs_pretask_2+variant_part.json) — то же что и, но сохранены только случаи где есть хотя бы 2 ложных варианта
