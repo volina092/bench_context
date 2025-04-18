@@ -38,4 +38,4 @@
 * [long_thick_paragraphs_pretask.json](pretask/long_thick_paragraphs_pretask.json), [long_thick_paragraphs_pretask 1.json](pretask/long_thick_paragraphs_pretask%201.json) — длина текста = 1.5 х средней длины текста; элемент содержит: параграф, местоимение, "голд" и потенциальные неправильные варианты ответа (совпадающие по грам. признакам)
 * [long_thick_paragraphs_pretask_2+variant_full.json](pretask/long_thick_paragraphs_pretask_2+variant_full.json) — то же что и, но сохранены только случаи где есть хотя бы 2 ложных варианта
 * [long_thick_paragraphs_pretask_2+variant_part.json](pretask/long_thick_paragraphs_pretask_2+variant_part.json) — то же что и, но сохранены только случаи где есть хотя бы 2 ложных варианта
-
+* [first_mentions_parag_pretask.json](first_mentions_parag_pretask.json) — параграф и реф. цепочка (non-anaphoric coref spans), первое упоминание — соответственно первый спан этой сущности в абзаце
