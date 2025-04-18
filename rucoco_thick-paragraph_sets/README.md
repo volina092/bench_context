@@ -31,5 +31,5 @@
 
 # Претаски
 
-* [short_thick_paragraphs_pretask full.json](pretask/short_thick_paragraphs_pretask full.json) — длина текста = 0.5 х средней длины текста; элемент содержит: параграф, местоимение, "голд" и потенциальные неправильные варианты ответа (совпадающие по грам. признакам)
+* [short_thick_paragraphs_pretask full.json](pretask/short_thick_paragraphs_pretask\ full.json) — длина текста = 0.5 х средней длины текста; элемент содержит: параграф, местоимение, "голд" и потенциальные неправильные варианты ответа (совпадающие по грам. признакам)
 * [long_thick_paragraphs_pretask.json](pretask/long_thick_paragraphs_pretask.json), [long_thick_paragraphs_pretask 1.json](pretask/long_thick_paragraphs_pretask 1.json) — длина текста = 1.5 х средней длины текста; элемент содержит: параграф, местоимение, "голд" и потенциальные неправильные варианты ответа (совпадающие по грам. признакам)
