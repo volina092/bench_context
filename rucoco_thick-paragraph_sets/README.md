@@ -1,0 +1,41 @@
+# Абзацы с определёнными свойствами (можно считать и перевести в объекты)
+
+## Файлы
+* [6epp&has_anaphoric.json](6epp&has_anaphoric.json)    6+ сущностей на абзац & есть местоимение
+* [4epp&has_anaphoric.json](4epp&has_anaphoric.json)    4+ сущности на абзац & есть местоимение
+
+## Структура файла
+
+Список словарей, в каждом словаре
+- текст абзаца
+- название файла
+- номер абзаца
+- все спаны абзаца
+<!-- - "искомый" спан (анафорическое местоимение) -->
+
+# Абзацы для заданий
+
+## Короткие и длинные
+
+### длина текста = 0.5 х средней длины текста (+- 5 токенов)
+
+**Количество примеров**, где длина текста = 0.5 х средней длины текста: 25
+
+**Файл**: [short_and_thick.json](short_and_thick.json)
+
+### длина текста = 1.5 х средней длины текста (+- 5 токенов)
+
+**Количество примеров**, где длина текста = 1.5 х средней длины текста:: 504
+
+**Файл**: [long_and_thick.json](long_and_thick.jsons)
+
+# Претаски
+
+*Коммент для Маши: в тетрадке делается в ячейке с комментом "претаск для выбора референта внутри абзаца"*
+
+* [short_thick_paragraphs_pretask full.json](pretask/short_thick_paragraphs_pretask%20full.json) — длина текста = 0.5 х средней длины текста; элемент содержит: параграф, местоимение, "голд" и потенциальные неправильные варианты ответа (совпадающие по грам. признакам)
+* [short_thick_paragraphs_pretask_2+variant_full.json](pretask/long_thick_paragraphs_pretask_2+variant_full.json) — то же что и, но сохранены только случаи где есть хотя бы 2 ложных варианта
+* [long_thick_paragraphs_pretask.json](pretask/long_thick_paragraphs_pretask.json), [long_thick_paragraphs_pretask 1.json](pretask/long_thick_paragraphs_pretask%201.json) — длина текста = 1.5 х средней длины текста; элемент содержит: параграф, местоимение, "голд" и потенциальные неправильные варианты ответа (совпадающие по грам. признакам)
+* [long_thick_paragraphs_pretask_2+variant_full.json](pretask/long_thick_paragraphs_pretask_2+variant_full.json) — то же что и, но сохранены только случаи где есть хотя бы 2 ложных варианта
+* [long_thick_paragraphs_pretask_2+variant_part.json](pretask/long_thick_paragraphs_pretask_2+variant_part.json) — то же что и, но сохранены только случаи где есть хотя бы 2 ложных варианта
+* [first_mentions_parag_pretask.json](first_mentions_parag_pretask.json) — параграф и реф. цепочка (non-anaphoric coref spans), первое упоминание — соответственно первый спан этой сущности в абзаце
